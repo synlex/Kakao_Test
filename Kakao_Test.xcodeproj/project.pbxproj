@@ -12,6 +12,18 @@
 		CEA130192081B3A5009352C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA130172081B3A5009352C0 /* Main.storyboard */; };
 		CEA1301B2081B3A5009352C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA1301A2081B3A5009352C0 /* Assets.xcassets */; };
 		CEA1301E2081B3A5009352C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA1301C2081B3A5009352C0 /* LaunchScreen.storyboard */; };
+		CEA1302A2081B3D8009352C0 /* meBubble@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA130262081B3D8009352C0 /* meBubble@2x.png */; };
+		CEA1302B2081B3D8009352C0 /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA130272081B3D8009352C0 /* man.png */; };
+		CEA1302C2081B3D8009352C0 /* meBubble@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA130282081B3D8009352C0 /* meBubble@3x.png */; };
+		CEA1302D2081B3D8009352C0 /* meBubble.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA130292081B3D8009352C0 /* meBubble.png */; };
+		CEA130312081B3E4009352C0 /* youBubble.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA1302E2081B3E4009352C0 /* youBubble.png */; };
+		CEA130322081B3E4009352C0 /* youBubble@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA1302F2081B3E4009352C0 /* youBubble@3x.png */; };
+		CEA130332081B3E4009352C0 /* youBubble@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA130302081B3E4009352C0 /* youBubble@2x.png */; };
+		CEA130352081B3F1009352C0 /* girl.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA130342081B3F1009352C0 /* girl.png */; };
+		CEA1303E2081B513009352C0 /* MyBubbleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1303C2081B513009352C0 /* MyBubbleTableViewCell.swift */; };
+		CEA1303F2081B513009352C0 /* MyBubbleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA1303D2081B513009352C0 /* MyBubbleTableViewCell.xib */; };
+		CEA130422081BEB5009352C0 /* YourBubbleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA130402081BEB5009352C0 /* YourBubbleTableViewCell.swift */; };
+		CEA130432081BEB5009352C0 /* YourBubbleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA130412081BEB5009352C0 /* YourBubbleTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,18 @@
 		CEA1301A2081B3A5009352C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEA1301D2081B3A5009352C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEA1301F2081B3A5009352C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA130262081B3D8009352C0 /* meBubble@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meBubble@2x.png"; sourceTree = "<group>"; };
+		CEA130272081B3D8009352C0 /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = man.png; sourceTree = "<group>"; };
+		CEA130282081B3D8009352C0 /* meBubble@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meBubble@3x.png"; sourceTree = "<group>"; };
+		CEA130292081B3D8009352C0 /* meBubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meBubble.png; sourceTree = "<group>"; };
+		CEA1302E2081B3E4009352C0 /* youBubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = youBubble.png; sourceTree = "<group>"; };
+		CEA1302F2081B3E4009352C0 /* youBubble@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "youBubble@3x.png"; sourceTree = "<group>"; };
+		CEA130302081B3E4009352C0 /* youBubble@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "youBubble@2x.png"; sourceTree = "<group>"; };
+		CEA130342081B3F1009352C0 /* girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl.png; sourceTree = "<group>"; };
+		CEA1303C2081B513009352C0 /* MyBubbleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBubbleTableViewCell.swift; sourceTree = "<group>"; };
+		CEA1303D2081B513009352C0 /* MyBubbleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyBubbleTableViewCell.xib; sourceTree = "<group>"; };
+		CEA130402081BEB5009352C0 /* YourBubbleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourBubbleTableViewCell.swift; sourceTree = "<group>"; };
+		CEA130412081BEB5009352C0 /* YourBubbleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YourBubbleTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +78,34 @@
 		CEA130122081B3A5009352C0 /* Kakao_Test */ = {
 			isa = PBXGroup;
 			children = (
+				CEA130252081B3C9009352C0 /* Resource */,
 				CEA130132081B3A5009352C0 /* AppDelegate.swift */,
 				CEA130152081B3A5009352C0 /* ViewController.swift */,
 				CEA130172081B3A5009352C0 /* Main.storyboard */,
+				CEA1303C2081B513009352C0 /* MyBubbleTableViewCell.swift */,
+				CEA1303D2081B513009352C0 /* MyBubbleTableViewCell.xib */,
+				CEA130402081BEB5009352C0 /* YourBubbleTableViewCell.swift */,
+				CEA130412081BEB5009352C0 /* YourBubbleTableViewCell.xib */,
 				CEA1301A2081B3A5009352C0 /* Assets.xcassets */,
 				CEA1301C2081B3A5009352C0 /* LaunchScreen.storyboard */,
 				CEA1301F2081B3A5009352C0 /* Info.plist */,
 			);
 			path = Kakao_Test;
+			sourceTree = "<group>";
+		};
+		CEA130252081B3C9009352C0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CEA130342081B3F1009352C0 /* girl.png */,
+				CEA130272081B3D8009352C0 /* man.png */,
+				CEA130292081B3D8009352C0 /* meBubble.png */,
+				CEA130262081B3D8009352C0 /* meBubble@2x.png */,
+				CEA130282081B3D8009352C0 /* meBubble@3x.png */,
+				CEA1302E2081B3E4009352C0 /* youBubble.png */,
+				CEA130302081B3E4009352C0 /* youBubble@2x.png */,
+				CEA1302F2081B3E4009352C0 /* youBubble@3x.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +168,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEA1301E2081B3A5009352C0 /* LaunchScreen.storyboard in Resources */,
+				CEA130312081B3E4009352C0 /* youBubble.png in Resources */,
+				CEA1302C2081B3D8009352C0 /* meBubble@3x.png in Resources */,
+				CEA1302B2081B3D8009352C0 /* man.png in Resources */,
+				CEA130332081B3E4009352C0 /* youBubble@2x.png in Resources */,
+				CEA1302D2081B3D8009352C0 /* meBubble.png in Resources */,
+				CEA130352081B3F1009352C0 /* girl.png in Resources */,
+				CEA1303F2081B513009352C0 /* MyBubbleTableViewCell.xib in Resources */,
 				CEA1301B2081B3A5009352C0 /* Assets.xcassets in Resources */,
+				CEA130322081B3E4009352C0 /* youBubble@3x.png in Resources */,
+				CEA1302A2081B3D8009352C0 /* meBubble@2x.png in Resources */,
+				CEA130432081BEB5009352C0 /* YourBubbleTableViewCell.xib in Resources */,
 				CEA130192081B3A5009352C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +190,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA1303E2081B513009352C0 /* MyBubbleTableViewCell.swift in Sources */,
 				CEA130162081B3A5009352C0 /* ViewController.swift in Sources */,
+				CEA130422081BEB5009352C0 /* YourBubbleTableViewCell.swift in Sources */,
 				CEA130142081B3A5009352C0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

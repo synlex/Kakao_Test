@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyBubbleCell" rowHeight="124" id="KGk-i7-Jjw" customClass="MyBubbleTableViewCell" customModule="Kakao_Test" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="124"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="400" height="123.66666666666667"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="meBubble.png" translatesAutoresizingMaskIntoConstraints="NO" id="ITe-cS-cO7">
+                        <rect key="frame" x="113.66666666666666" y="16" width="286.33333333333337" height="92"/>
+                        <rect key="contentStretch" x="0.5" y="0.5" width="0.0" height="0.0"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="751" verticalHuggingPriority="751" text="이미지 가운데가 늘어나게 하기 위해서 streching 설정" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPv-MY-Bgl">
+                        <rect key="frame" x="123.66666666666666" y="26" width="256.33333333333337" height="72"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="오후 10:09" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5g1-r6-3yd">
+                        <rect key="frame" x="40" y="87.333333333333329" width="60.333333333333343" height="15.666666666666671"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="0.70267016270000004" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="VPv-MY-Bgl" firstAttribute="bottom" secondItem="ITe-cS-cO7" secondAttribute="bottom" constant="-10" id="FCI-n0-1pW"/>
+                    <constraint firstItem="ITe-cS-cO7" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" constant="20" id="KXo-FB-As9"/>
+                    <constraint firstItem="ITe-cS-cO7" firstAttribute="leading" secondItem="5g1-r6-3yd" secondAttribute="trailing" constant="13.33" id="Puf-zJ-MWL"/>
+                    <constraint firstItem="VPv-MY-Bgl" firstAttribute="trailing" secondItem="ITe-cS-cO7" secondAttribute="trailing" constant="-20" id="RZr-dG-7qv"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="ITe-cS-cO7" secondAttribute="bottom" constant="5" id="UnQ-7x-M57"/>
+                    <constraint firstItem="ITe-cS-cO7" firstAttribute="bottom" secondItem="5g1-r6-3yd" secondAttribute="bottom" constant="5" id="Xbu-yi-4SZ"/>
+                    <constraint firstItem="5g1-r6-3yd" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="40" id="b6I-q2-asO"/>
+                    <constraint firstItem="VPv-MY-Bgl" firstAttribute="top" secondItem="ITe-cS-cO7" secondAttribute="top" constant="10" id="kM7-O6-Ytx"/>
+                    <constraint firstItem="VPv-MY-Bgl" firstAttribute="leading" secondItem="ITe-cS-cO7" secondAttribute="leading" constant="10" id="nRk-iD-TKj"/>
+                    <constraint firstItem="ITe-cS-cO7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="pbw-ej-Fcc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bubbleText" destination="VPv-MY-Bgl" id="RmY-qh-LQM"/>
+            </connections>
+            <point key="canvasLocation" x="96" y="-55"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="meBubble.png" width="59" height="49"/>
+    </resources>
+</document>
